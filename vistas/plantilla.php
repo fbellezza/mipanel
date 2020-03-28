@@ -67,6 +67,8 @@ session_start();
         }else{
           include "modulos/404.php";
         }
+        }else{
+          include "modulos/inicio.php";
       }
 
       include "modulos/footer.php";//invluyo el modulo footer 
